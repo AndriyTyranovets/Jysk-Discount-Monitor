@@ -1,0 +1,12 @@
+[versions]
+gson = "2.10.1"
+recordBuilder = "37"
+junit = "5.8.1"
+
+[libraries]
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+record-builder-processor = { module = "io.soabase.record-builder:record-builder-processor", version.ref = "recordBuilder" }
+record-builder-core = { module = "io.soabase.record-builder:record-builder-core", version.ref = "recordBuilder" }
+junit-api = { module = "org.junit.jupiter:junit-jupiter-api", version.ref = "junit" }
+junit-engine = { module = "org.junit.jupiter:junit-jupiter-engine", version.ref = "junit" }
+# = { module = "", version.ref = "" }
